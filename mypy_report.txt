@@ -1,0 +1,47 @@
+scripts/final_review_and_release.py:21: error: Need type annotation for "review_results"  [var-annotated]
+farm_manager/resources/models.py:58: error: Incompatible default for argument "skills" (default has type "None", argument has type "list[str]")  [assignment]
+farm_manager/resources/models.py:58: note: PEP 484 prohibits implicit Optional. Accordingly, mypy has changed its default to no_implicit_optional=True
+farm_manager/resources/models.py:58: note: Use https://github.com/hauntsaninja/no_implicit_optional to automatically upgrade your codebase
+farm_manager/irrigation/decision_system.py:11: error: Incompatible default for argument "weather_client" (default has type "None", argument has type "WeatherClient")  [assignment]
+farm_manager/irrigation/decision_system.py:11: note: PEP 484 prohibits implicit Optional. Accordingly, mypy has changed its default to no_implicit_optional=True
+farm_manager/irrigation/decision_system.py:11: note: Use https://github.com/hauntsaninja/no_implicit_optional to automatically upgrade your codebase
+farm_manager/calendar/crop_calendar.py:5: error: Module "farm_manager.core.exceptions" has no attribute "CropCalendarError"  [attr-defined]
+farm_manager/calendar/crop_calendar.py:17: note: By default the bodies of untyped functions are not checked, consider using --check-untyped-defs  [annotation-unchecked]
+farm_manager/calendar/crop_calendar.py:74: error: Name "Any" is not defined  [name-defined]
+farm_manager/calendar/crop_calendar.py:74: note: Did you forget to import it from "typing"? (Suggestion: "from typing import Any")
+farm_manager/resources/optimizer.py:19: error: Incompatible types in assignment (expression has type "float", variable has type "int")  [assignment]
+farm_manager/resources/optimizer.py:22: error: Incompatible types in assignment (expression has type "float", variable has type "int")  [assignment]
+farm_manager/resources/optimizer.py:26: error: Incompatible types in assignment (expression has type "float", variable has type "int")  [assignment]
+farm_manager/resources/optimizer.py:30: error: Incompatible types in assignment (expression has type "float", variable has type "int")  [assignment]
+farm_manager/resources/optimizer.py:41: error: Incompatible types in assignment (expression has type "float", variable has type "int")  [assignment]
+farm_manager/resources/optimizer.py:64: error: "ResourceManager" has no attribute "get_all_machinery"  [attr-defined]
+farm_manager/resources/optimizer.py:128: error: Need type annotation for "machine_to_tasks" (hint: "machine_to_tasks: dict[<type>, <type>] = ...")  [var-annotated]
+farm_manager/calendar/visualizer.py:14: error: Incompatible default for argument "year" (default has type "None", argument has type "int")  [assignment]
+farm_manager/calendar/visualizer.py:14: note: PEP 484 prohibits implicit Optional. Accordingly, mypy has changed its default to no_implicit_optional=True
+farm_manager/calendar/visualizer.py:14: note: Use https://github.com/hauntsaninja/no_implicit_optional to automatically upgrade your codebase
+farm_manager/calendar/visualizer.py:59: error: Incompatible default for argument "year" (default has type "None", argument has type "int")  [assignment]
+farm_manager/calendar/visualizer.py:59: note: PEP 484 prohibits implicit Optional. Accordingly, mypy has changed its default to no_implicit_optional=True
+farm_manager/calendar/visualizer.py:59: note: Use https://github.com/hauntsaninja/no_implicit_optional to automatically upgrade your codebase
+farm_manager/calendar/visualizer.py:84: error: Unsupported target for indexed assignment ("object")  [index]
+scripts/performance_test.py:6: error: Library stubs not installed for "psutil"  [import-untyped]
+scripts/performance_test.py:6: note: Hint: "python3 -m pip install types-psutil"
+scripts/performance_test.py:6: note: (or run "mypy --install-types" to install all missing stub packages)
+scripts/performance_test.py:8: error: Cannot find implementation or library stub for module named "memory_profiler"  [import-not-found]
+farm_manager/weather/alerts.py:7: error: Module "farm_manager.core.exceptions" has no attribute "WeatherAlertError"; maybe "WeatherClientError"?  [attr-defined]
+farm_manager/core/performance.py:80: error: Incompatible default for argument "max_workers" (default has type "None", argument has type "int")  [assignment]
+farm_manager/core/performance.py:80: note: PEP 484 prohibits implicit Optional. Accordingly, mypy has changed its default to no_implicit_optional=True
+farm_manager/core/performance.py:80: note: Use https://github.com/hauntsaninja/no_implicit_optional to automatically upgrade your codebase
+farm_manager/irrigation/models.py:2: error: Skipping analyzing "sklearn.preprocessing": module is installed, but missing library stubs or py.typed marker  [import-untyped]
+farm_manager/irrigation/models.py:2: note: See https://mypy.readthedocs.io/en/stable/running_mypy.html#missing-imports
+farm_manager/irrigation/models.py:3: error: Skipping analyzing "sklearn.ensemble": module is installed, but missing library stubs or py.typed marker  [import-untyped]
+farm_manager/knowledge/base.py:7: error: Module "farm_manager.core.exceptions" has no attribute "KnowledgeBaseError"  [attr-defined]
+tests/integration_test_suite.py:5: error: Module "farm_manager.core.config" has no attribute "load_config"  [attr-defined]
+tests/integration_test_suite.py:9: error: Module "farm_manager.workflows.planting" has no attribute "generate_planting_workflow"  [attr-defined]
+tests/integration_test_suite.py:10: error: Module "farm_manager.workflows.harvest" has no attribute "generate_harvest_workflow"  [attr-defined]
+tests/integration_test_suite.py:116: error: Cannot find implementation or library stub for module named "xmlrunner"  [import-not-found]
+farm_manager/knowledge/regulations.py:53: error: Incompatible return value type (got "list[dict[str, Any]]", expected "dict[str, Any]")  [return-value]
+farm_manager/knowledge/practices.py:50: error: Incompatible return value type (got "list[dict[str, Any]]", expected "dict[str, Any]")  [return-value]
+farm_manager/knowledge/crops.py:50: error: Incompatible return value type (got "list[dict[str, Any]]", expected "dict[str, Any]")  [return-value]
+farm_manager/knowledge/climate.py:49: error: Incompatible return value type (got "list[dict[str, Any]]", expected "dict[str, Any]")  [return-value]
+scripts/populate_knowledge_base.py:11: error: Module "farm_manager.knowledge.base" has no attribute "KnowledgeBase"; maybe "KnowledgeBaseError" or "KnowledgeBaseManager"?  [attr-defined]
+Found 31 errors in 17 files (checked 48 source files)

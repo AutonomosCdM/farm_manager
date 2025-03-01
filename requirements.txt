@@ -1,0 +1,8 @@
+# Core dependencies
+SQLAlchemy>=2.0.0
+
+# Performance and monitoring
+psutil>=5.9.0
+memory-profiler>=0.60.0
+
+# Add any additional dependencies for data persistence

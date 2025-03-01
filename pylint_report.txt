@@ -1,0 +1,318 @@
+************* Module farm_manager.cli
+farm_manager/cli.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+farm_manager/cli.py:171:12: W0621: Redefining name 'resources' from outer scope (line 160) (redefined-outer-name)
+farm_manager/cli.py:2:0: C0411: standard import "typing.Optional" should be placed before third party import "typer" (wrong-import-order)
+farm_manager/cli.py:7:0: W0611: Unused PlantingTemplate imported from farm_manager.workflows (unused-import)
+farm_manager/cli.py:7:0: W0611: Unused HarvestTemplate imported from farm_manager.workflows (unused-import)
+farm_manager/cli.py:7:0: W0611: Unused MaintenanceTemplate imported from farm_manager.workflows (unused-import)
+************* Module farm_manager.calendar.models
+farm_manager/calendar/models.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+farm_manager/calendar/models.py:24:8: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+************* Module farm_manager.calendar.crop_calendar
+farm_manager/calendar/crop_calendar.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+farm_manager/calendar/crop_calendar.py:5:0: E0611: No name 'CropCalendarError' in module 'farm_manager.core.exceptions' (no-name-in-module)
+farm_manager/calendar/crop_calendar.py:74:19: E0602: Undefined variable 'Any' (undefined-variable)
+************* Module farm_manager.calendar.visualizer
+farm_manager/calendar/visualizer.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+farm_manager/calendar/visualizer.py:2:0: W0611: Unused List imported from typing (unused-import)
+farm_manager/calendar/visualizer.py:4:0: W0611: Unused CropStage imported from models (unused-import)
+************* Module farm_manager.core.config
+farm_manager/core/config.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+farm_manager/core/config.py:18:4: C0103: Attribute name "DATABASE_URL" doesn't conform to snake_case naming style (invalid-name)
+farm_manager/core/config.py:23:4: C0103: Attribute name "API_HOST" doesn't conform to snake_case naming style (invalid-name)
+farm_manager/core/config.py:24:4: C0103: Attribute name "API_PORT" doesn't conform to snake_case naming style (invalid-name)
+farm_manager/core/config.py:27:4: C0103: Attribute name "LOG_LEVEL" doesn't conform to snake_case naming style (invalid-name)
+farm_manager/core/config.py:30:4: C0103: Attribute name "RESOURCE_DATA_PATH" doesn't conform to snake_case naming style (invalid-name)
+farm_manager/core/config.py:24:54: W1508: os.getenv default type is builtins.int. Expected str or None. (invalid-envvar-default)
+farm_manager/core/config.py:2:0: W0611: Unused Dict imported from typing (unused-import)
+farm_manager/core/config.py:2:0: W0611: Unused Any imported from typing (unused-import)
+************* Module farm_manager.core.logging_config
+farm_manager/core/logging_config.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+farm_manager/core/logging_config.py:57:4: C0415: Import outside toplevel (functools) (import-outside-toplevel)
+farm_manager/core/logging_config.py:58:4: C0415: Import outside toplevel (time) (import-outside-toplevel)
+farm_manager/core/logging_config.py:73:16: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+farm_manager/core/logging_config.py:80:16: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+farm_manager/core/logging_config.py:92:4: W0107: Unnecessary pass statement (unnecessary-pass)
+farm_manager/core/logging_config.py:98:4: W0107: Unnecessary pass statement (unnecessary-pass)
+farm_manager/core/logging_config.py:104:4: W0107: Unnecessary pass statement (unnecessary-pass)
+farm_manager/core/logging_config.py:121:0: C0413: Import "import sys" should be placed at the top of the module (wrong-import-position)
+************* Module farm_manager.core.exceptions
+farm_manager/core/exceptions.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+farm_manager/core/exceptions.py:4:4: W0107: Unnecessary pass statement (unnecessary-pass)
+farm_manager/core/exceptions.py:10:4: W0107: Unnecessary pass statement (unnecessary-pass)
+farm_manager/core/exceptions.py:16:4: W0107: Unnecessary pass statement (unnecessary-pass)
+farm_manager/core/exceptions.py:22:4: W0107: Unnecessary pass statement (unnecessary-pass)
+farm_manager/core/exceptions.py:28:4: W0107: Unnecessary pass statement (unnecessary-pass)
+************* Module farm_manager.core.performance
+farm_manager/core/performance.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+farm_manager/core/performance.py:62:27: W0718: Catching too general exception Exception (broad-exception-caught)
+farm_manager/core/performance.py:64:24: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+farm_manager/core/performance.py:70:28: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+farm_manager/core/performance.py:55:12: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+farm_manager/core/performance.py:143:24: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+farm_manager/core/performance.py:138:16: W0612: Unused variable 'e' (unused-variable)
+farm_manager/core/performance.py:4:0: W0611: Unused Any imported from typing (unused-import)
+farm_manager/core/performance.py:5:0: W0611: Unused import asyncio (unused-import)
+************* Module farm_manager.resources.models
+farm_manager/resources/models.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+farm_manager/resources/models.py:9:4: R0913: Too many arguments (7/5) (too-many-arguments)
+farm_manager/resources/models.py:9:4: R0917: Too many positional arguments (7/5) (too-many-positional-arguments)
+farm_manager/resources/models.py:12:8: W0622: Redefining built-in 'type' (redefined-builtin)
+farm_manager/resources/models.py:16:8: W0622: Redefining built-in 'id' (redefined-builtin)
+farm_manager/resources/models.py:52:4: R0913: Too many arguments (7/5) (too-many-arguments)
+farm_manager/resources/models.py:52:4: R0917: Too many positional arguments (7/5) (too-many-positional-arguments)
+farm_manager/resources/models.py:59:8: W0622: Redefining built-in 'id' (redefined-builtin)
+farm_manager/resources/models.py:2:0: W0611: Unused datetime imported from datetime (unused-import)
+************* Module farm_manager.resources.optimizer
+farm_manager/resources/optimizer.py:13:0: C0301: Line too long (103/100) (line-too-long)
+farm_manager/resources/optimizer.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+farm_manager/resources/optimizer.py:112:8: W0613: Unused argument 'resource_manager' (unused-argument)
+farm_manager/resources/optimizer.py:144:16: W0612: Unused variable 'highest_priority_task' (unused-variable)
+farm_manager/resources/optimizer.py:2:0: W0611: Unused Optional imported from typing (unused-import)
+************* Module farm_manager.resources.manager
+farm_manager/resources/manager.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+farm_manager/resources/manager.py:49:12: W0707: Consider explicitly re-raising using 'raise ResourceManagementError(f'Error listando recursos: {str(e)}') from e' (raise-missing-from)
+farm_manager/resources/manager.py:84:12: W0707: Consider explicitly re-raising using 'raise ResourceManagementError(f'Error optimizando recursos: {str(e)}') from e' (raise-missing-from)
+************* Module farm_manager.workflows.maintenance
+farm_manager/workflows/maintenance.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+farm_manager/workflows/maintenance.py:87:16: W1309: Using an f-string that does not have any interpolated variables (f-string-without-interpolation)
+************* Module farm_manager.workflows
+farm_manager/workflows/__init__.py:9:0: C0411: first party import "src.workflow_templates.WorkflowTemplateManager" should be placed before local imports "template.WorkflowTemplate", "planting.PlantingTemplate", "harvest.HarvestTemplate", "maintenance.MaintenanceTemplate" (wrong-import-order)
+************* Module farm_manager.workflows.harvest
+farm_manager/workflows/harvest.py:36:0: C0301: Line too long (101/100) (line-too-long)
+farm_manager/workflows/harvest.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+************* Module farm_manager.workflows.template
+farm_manager/workflows/template.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+farm_manager/workflows/template.py:32:8: W0107: Unnecessary pass statement (unnecessary-pass)
+farm_manager/workflows/template.py:42:8: W0107: Unnecessary pass statement (unnecessary-pass)
+************* Module farm_manager.workflows.planting
+farm_manager/workflows/planting.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+************* Module farm_manager.knowledge.regulations
+farm_manager/knowledge/regulations.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+************* Module farm_manager.knowledge.crops
+farm_manager/knowledge/crops.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+************* Module farm_manager.knowledge.practices
+farm_manager/knowledge/practices.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+************* Module farm_manager.knowledge.climate
+farm_manager/knowledge/climate.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+************* Module farm_manager.knowledge.base
+farm_manager/knowledge/base.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+farm_manager/knowledge/base.py:7:0: E0611: No name 'KnowledgeBaseError' in module 'farm_manager.core.exceptions' (no-name-in-module)
+farm_manager/knowledge/base.py:79:12: W0707: Consider explicitly re-raising using 'raise KnowledgeBaseError(f'Error adding entry: {e}') from e' (raise-missing-from)
+farm_manager/knowledge/base.py:105:12: W0707: Consider explicitly re-raising using 'raise KnowledgeBaseError(f'Error performing query: {e}') from e' (raise-missing-from)
+farm_manager/knowledge/base.py:118:12: W0707: Consider explicitly re-raising using 'raise KnowledgeBaseError(f'Error deleting entry: {e}') from e' (raise-missing-from)
+farm_manager/knowledge/base.py:4:0: W0611: Unused Settings imported from chromadb.config (unused-import)
+************* Module farm_manager.irrigation.models
+farm_manager/irrigation/models.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+farm_manager/irrigation/models.py:61:8: C0103: Variable name "X" doesn't conform to snake_case naming style (invalid-name)
+farm_manager/irrigation/models.py:65:8: C0103: Variable name "X_scaled" doesn't conform to snake_case naming style (invalid-name)
+farm_manager/irrigation/models.py:82:15: E1101: Instance of 'RandomForestRegressor' has no 'predict_proba' member (no-member)
+farm_manager/irrigation/models.py:4:0: C0411: standard import "typing.List" should be placed before third party imports "numpy", "sklearn.preprocessing.StandardScaler", "sklearn.ensemble.RandomForestRegressor" (wrong-import-order)
+farm_manager/irrigation/models.py:1:0: W0611: Unused numpy imported as np (unused-import)
+************* Module farm_manager.irrigation.validators
+farm_manager/irrigation/validators.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+farm_manager/irrigation/validators.py:144:8: W0613: Unused argument 'recommendation' (unused-argument)
+farm_manager/irrigation/validators.py:4:0: R0903: Too few public methods (1/2) (too-few-public-methods)
+************* Module farm_manager.irrigation.decision_system
+farm_manager/irrigation/decision_system.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+farm_manager/irrigation/decision_system.py:69:12: W0707: Consider explicitly re-raising using 'raise IrrigationDecisionError(f'Error generando plan de riego: {str(e)}') from e' (raise-missing-from)
+farm_manager/irrigation/decision_system.py:6:0: R0903: Too few public methods (1/2) (too-few-public-methods)
+************* Module farm_manager.weather.alerts
+farm_manager/weather/alerts.py:45:0: C0301: Line too long (102/100) (line-too-long)
+farm_manager/weather/alerts.py:69:0: C0301: Line too long (133/100) (line-too-long)
+farm_manager/weather/alerts.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+farm_manager/weather/alerts.py:7:0: E0611: No name 'WeatherAlertError' in module 'farm_manager.core.exceptions' (no-name-in-module)
+farm_manager/weather/alerts.py:75:15: W0718: Catching too general exception Exception (broad-exception-caught)
+farm_manager/weather/alerts.py:40:16: R1705: Unnecessary "elif" after "return", remove the leading "el" from "elif" (no-else-return)
+farm_manager/weather/alerts.py:76:12: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+farm_manager/weather/alerts.py:89:8: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+farm_manager/weather/alerts.py:7:0: W0611: Unused WeatherAlertError imported from core.exceptions (unused-import)
+************* Module farm_manager.weather.models
+farm_manager/weather/models.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+farm_manager/weather/models.py:7:0: R0902: Too many instance attributes (10/7) (too-many-instance-attributes)
+farm_manager/weather/models.py:70:4: R0913: Too many arguments (8/5) (too-many-arguments)
+farm_manager/weather/models.py:70:4: R0917: Too many positional arguments (8/5) (too-many-positional-arguments)
+************* Module farm_manager.weather.client
+farm_manager/weather/client.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+farm_manager/weather/client.py:32:12: W0707: Consider explicitly re-raising using 'raise WeatherClientError(f'Error obteniendo pronóstico: {str(e)}') from e' (raise-missing-from)
+farm_manager/weather/client.py:10:27: W0613: Unused argument 'location' (unused-argument)
+farm_manager/weather/client.py:5:0: R0903: Too few public methods (1/2) (too-few-public-methods)
+farm_manager/weather/client.py:56:4: W0246: Useless parent or super() delegation in method '__init__' (useless-parent-delegation)
+farm_manager/weather/client.py:51:0: R0903: Too few public methods (1/2) (too-few-public-methods)
+************* Module tests.test_resources
+tests/test_resources.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+tests/test_resources.py:1:0: W0611: Unused import pytest (unused-import)
+tests/test_resources.py:2:0: W0611: Unused ResourceManagementError imported from farm_manager.core.exceptions (unused-import)
+************* Module tests.test_workflows
+tests/test_workflows.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+tests/test_workflows.py:2:0: W0611: Unused WorkflowTemplateError imported from farm_manager.core.exceptions (unused-import)
+************* Module tests.conftest
+tests/conftest.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+************* Module tests.integration_test_suite
+tests/integration_test_suite.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+tests/integration_test_suite.py:5:0: E0611: No name 'load_config' in module 'farm_manager.core.config' (no-name-in-module)
+tests/integration_test_suite.py:9:0: E0611: No name 'generate_planting_workflow' in module 'farm_manager.workflows.planting' (no-name-in-module)
+tests/integration_test_suite.py:10:0: E0611: No name 'generate_harvest_workflow' in module 'farm_manager.workflows.harvest' (no-name-in-module)
+tests/integration_test_suite.py:27:15: E1121: Too many positional arguments for constructor call (too-many-function-args)
+tests/integration_test_suite.py:37:15: E1121: Too many positional arguments for constructor call (too-many-function-args)
+tests/integration_test_suite.py:100:8: C0415: Import outside toplevel (farm_manager.knowledge.base.KnowledgeBase) (import-outside-toplevel)
+tests/integration_test_suite.py:100:8: E0611: No name 'KnowledgeBase' in module 'farm_manager.knowledge.base' (no-name-in-module)
+tests/integration_test_suite.py:116:4: C0415: Import outside toplevel (xmlrunner) (import-outside-toplevel)
+tests/integration_test_suite.py:116:4: E0401: Unable to import 'xmlrunner' (import-error)
+tests/integration_test_suite.py:116:4: W0611: Unused import xmlrunner (unused-import)
+tests/integration_test_suite.py:2:0: C0411: standard import "os" should be placed before third party import "pytest" (wrong-import-order)
+tests/integration_test_suite.py:3:0: C0411: standard import "sys" should be placed before third party import "pytest" (wrong-import-order)
+tests/integration_test_suite.py:3:0: W0611: Unused import sys (unused-import)
+tests/integration_test_suite.py:4:0: W0611: Unused main imported from farm_manager.cli (unused-import)
+************* Module tests.test_weather
+tests/test_weather.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+tests/test_weather.py:1:0: W0611: Unused import pytest (unused-import)
+tests/test_weather.py:2:0: W0611: Unused WeatherClientError imported from farm_manager.core.exceptions (unused-import)
+************* Module tests.test_irrigation
+tests/test_irrigation.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+************* Module tests.success_criteria_validator
+tests/success_criteria_validator.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+tests/success_criteria_validator.py:20:13: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+tests/success_criteria_validator.py:54:18: W1309: Using an f-string that does not have any interpolated variables (f-string-without-interpolation)
+tests/success_criteria_validator.py:74:13: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+tests/success_criteria_validator.py:88:8: R1722: Consider using 'sys.exit' instead (consider-using-sys-exit)
+tests/success_criteria_validator.py:95:4: R1722: Consider using 'sys.exit' instead (consider-using-sys-exit)
+tests/success_criteria_validator.py:4:0: W0611: Unused List imported from typing (unused-import)
+************* Module scripts.populate_knowledge_base
+scripts/populate_knowledge_base.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+scripts/populate_knowledge_base.py:11:0: C0413: Import "from farm_manager.knowledge.base import KnowledgeBase" should be placed at the top of the module (wrong-import-position)
+scripts/populate_knowledge_base.py:11:0: E0611: No name 'KnowledgeBase' in module 'farm_manager.knowledge.base' (no-name-in-module)
+scripts/populate_knowledge_base.py:12:0: C0413: Import "from farm_manager.knowledge import climate, crops, practices, regulations" should be placed at the top of the module (wrong-import-position)
+scripts/populate_knowledge_base.py:18:13: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+scripts/populate_knowledge_base.py:61:0: C0116: Missing function or method docstring (missing-function-docstring)
+scripts/populate_knowledge_base.py:64:11: W0718: Catching too general exception Exception (broad-exception-caught)
+scripts/populate_knowledge_base.py:12:0: W0611: Unused climate imported from farm_manager.knowledge (unused-import)
+scripts/populate_knowledge_base.py:12:0: W0611: Unused crops imported from farm_manager.knowledge (unused-import)
+scripts/populate_knowledge_base.py:12:0: W0611: Unused practices imported from farm_manager.knowledge (unused-import)
+scripts/populate_knowledge_base.py:12:0: W0611: Unused regulations imported from farm_manager.knowledge (unused-import)
+************* Module scripts.version_manager
+scripts/version_manager.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+scripts/version_manager.py:7:0: R0914: Too many local variables (17/15) (too-many-locals)
+scripts/version_manager.py:17:20: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+scripts/version_manager.py:48:18: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+scripts/version_manager.py:72:8: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+************* Module scripts.generate_test_report
+scripts/generate_test_report.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+scripts/generate_test_report.py:65:9: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+scripts/generate_test_report.py:157:9: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+scripts/generate_test_report.py:169:8: R1722: Consider using 'sys.exit' instead (consider-using-sys-exit)
+scripts/generate_test_report.py:178:8: R1722: Consider using 'sys.exit' instead (consider-using-sys-exit)
+scripts/generate_test_report.py:5:0: W0611: Unused import json (unused-import)
+************* Module scripts.final_review_and_release
+scripts/final_review_and_release.py:241:0: C0301: Line too long (124/100) (line-too-long)
+scripts/final_review_and_release.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+scripts/final_review_and_release.py:53:15: W0718: Catching too general exception Exception (broad-exception-caught)
+scripts/final_review_and_release.py:47:21: W1510: 'subprocess.run' used without explicitly defining the value for 'check'. (subprocess-run-check)
+scripts/final_review_and_release.py:65:15: W0718: Catching too general exception Exception (broad-exception-caught)
+scripts/final_review_and_release.py:59:21: W1510: 'subprocess.run' used without explicitly defining the value for 'check'. (subprocess-run-check)
+scripts/final_review_and_release.py:77:15: W0718: Catching too general exception Exception (broad-exception-caught)
+scripts/final_review_and_release.py:71:21: W1510: 'subprocess.run' used without explicitly defining the value for 'check'. (subprocess-run-check)
+scripts/final_review_and_release.py:90:15: W0718: Catching too general exception Exception (broad-exception-caught)
+scripts/final_review_and_release.py:83:21: W1510: 'subprocess.run' used without explicitly defining the value for 'check'. (subprocess-run-check)
+scripts/final_review_and_release.py:119:15: W0718: Catching too general exception Exception (broad-exception-caught)
+scripts/final_review_and_release.py:113:21: W1510: 'subprocess.run' used without explicitly defining the value for 'check'. (subprocess-run-check)
+scripts/final_review_and_release.py:130:15: W0718: Catching too general exception Exception (broad-exception-caught)
+scripts/final_review_and_release.py:125:21: W1510: 'subprocess.run' used without explicitly defining the value for 'check'. (subprocess-run-check)
+scripts/final_review_and_release.py:140:15: W0718: Catching too general exception Exception (broad-exception-caught)
+scripts/final_review_and_release.py:136:17: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+scripts/final_review_and_release.py:183:15: W0718: Catching too general exception Exception (broad-exception-caught)
+scripts/final_review_and_release.py:172:17: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+scripts/final_review_and_release.py:215:15: W0718: Catching too general exception Exception (broad-exception-caught)
+scripts/final_review_and_release.py:211:21: W1510: 'subprocess.run' used without explicitly defining the value for 'check'. (subprocess-run-check)
+scripts/final_review_and_release.py:240:18: W1309: Using an f-string that does not have any interpolated variables (f-string-without-interpolation)
+scripts/final_review_and_release.py:262:13: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+scripts/final_review_and_release.py:280:11: W0718: Catching too general exception Exception (broad-exception-caught)
+scripts/final_review_and_release.py:5:0: W0611: Unused import json (unused-import)
+scripts/final_review_and_release.py:6:0: W0611: Unused List imported from typing (unused-import)
+************* Module scripts.code_quality_fixer
+scripts/code_quality_fixer.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+scripts/code_quality_fixer.py:44:15: W0718: Catching too general exception Exception (broad-exception-caught)
+scripts/code_quality_fixer.py:34:17: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+scripts/code_quality_fixer.py:35:25: W1510: 'subprocess.run' used without explicitly defining the value for 'check'. (subprocess-run-check)
+scripts/code_quality_fixer.py:65:15: W0718: Catching too general exception Exception (broad-exception-caught)
+scripts/code_quality_fixer.py:55:17: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+scripts/code_quality_fixer.py:56:25: W1510: 'subprocess.run' used without explicitly defining the value for 'check'. (subprocess-run-check)
+scripts/code_quality_fixer.py:90:15: W0718: Catching too general exception Exception (broad-exception-caught)
+scripts/code_quality_fixer.py:76:21: W1510: 'subprocess.run' used without explicitly defining the value for 'check'. (subprocess-run-check)
+scripts/code_quality_fixer.py:83:17: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+scripts/code_quality_fixer.py:164:15: W0718: Catching too general exception Exception (broad-exception-caught)
+scripts/code_quality_fixer.py:152:21: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+scripts/code_quality_fixer.py:159:17: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+************* Module scripts.performance_test
+scripts/performance_test.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+scripts/performance_test.py:6:0: E0401: Unable to import 'psutil' (import-error)
+scripts/performance_test.py:8:0: E0401: Unable to import 'memory_profiler' (import-error)
+scripts/performance_test.py:14:0: C0413: Import "from farm_manager.core.logging_config import setup_logging" should be placed at the top of the module (wrong-import-position)
+scripts/performance_test.py:15:0: C0413: Import "from farm_manager.resources.manager import ResourceManager" should be placed at the top of the module (wrong-import-position)
+scripts/performance_test.py:16:0: C0413: Import "from farm_manager.irrigation.decision_system import IrrigationDecisionSystem" should be placed at the top of the module (wrong-import-position)
+scripts/performance_test.py:17:0: C0413: Import "from farm_manager.weather.client import WeatherClient" should be placed at the top of the module (wrong-import-position)
+scripts/performance_test.py:20:0: C0115: Missing class docstring (missing-class-docstring)
+scripts/performance_test.py:64:15: W0718: Catching too general exception Exception (broad-exception-caught)
+scripts/performance_test.py:46:16: E1101: Instance of 'ResourceManager' has no 'allocate_resources' member (no-member)
+scripts/performance_test.py:57:12: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+scripts/performance_test.py:65:12: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+scripts/performance_test.py:107:15: W0718: Catching too general exception Exception (broad-exception-caught)
+scripts/performance_test.py:89:38: E1101: Instance of 'IrrigationDecisionSystem' has no 'calculate_irrigation_needs' member (no-member)
+scripts/performance_test.py:100:12: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+scripts/performance_test.py:108:12: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+scripts/performance_test.py:89:16: W0612: Unused variable 'irrigation_decision' (unused-variable)
+scripts/performance_test.py:121:15: W0718: Catching too general exception Exception (broad-exception-caught)
+scripts/performance_test.py:122:12: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+scripts/performance_test.py:127:0: C0116: Missing function or method docstring (missing-function-docstring)
+scripts/performance_test.py:7:0: C0411: standard import "tracemalloc" should be placed before third party import "psutil" (wrong-import-order)
+scripts/performance_test.py:8:0: W0611: Unused memory_usage imported from memory_profiler (unused-import)
+************* Module scripts.generate_sample_data
+scripts/generate_sample_data.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+scripts/generate_sample_data.py:125:13: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+scripts/generate_sample_data.py:130:9: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+scripts/generate_sample_data.py:135:9: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+scripts/generate_sample_data.py:141:0: C0116: Missing function or method docstring (missing-function-docstring)
+scripts/generate_sample_data.py:144:11: W0718: Catching too general exception Exception (broad-exception-caught)
+scripts/generate_sample_data.py:1:0: R0801: Similar lines in 2 files
+==farm_manager.workflows.harvest:[40:58]
+==farm_manager.workflows.planting:[38:56]
+            ],
+            "equipment_needed": self._get_equipment(context["crop_type"]),
+            "estimated_labor": self._calculate_labor(context["area_hectares"]),
+        }
+
+        return plan
+
+    def validate_plan(self, plan: Dict[str, Any]) -> bool:
+        """
+        Validate the harvest plan for completeness.
+
+        :param plan: The plan to validate
+        :return: Boolean indicating if the plan is valid
+        """
+        required_keys = [
+            "operation",
+            "crop",
+            "area", (duplicate-code)
+scripts/generate_sample_data.py:1:0: R0801: Similar lines in 2 files
+==farm_manager.workflows.harvest:[43:58]
+==farm_manager.workflows.maintenance:[43:58]
+        }
+
+        return plan
+
+    def validate_plan(self, plan: Dict[str, Any]) -> bool:
+        """
+        Validate the maintenance plan for completeness.
+
+        :param plan: The plan to validate
+        :return: Boolean indicating if the plan is valid
+        """
+        required_keys = [
+            "operation",
+            "crop",
+            "area", (duplicate-code)
+
+------------------------------------------------------------------
+Your code has been rated at 7.86/10 (previous run: 7.79/10, +0.07)
+

@@ -1,0 +1,66 @@
+
+.DS_Store?
+.Python
+htmlcov/
+.DS_Store
+ENV/
+.Spotlight-V100
+# Virtual Environment
+# IDE
+.pytest_cache/
+.vscode/
+venv_*
+.eggs/
+*.egg
+dist/
+build/
+sdist/
+.env
+parts/
+.coverage
+._*
+var/
+# OS generated files
+wheels/
+*.py[cod]
+venv/
+# Python
+MANIFEST
+*.so
+lib64/
+__pycache__/
+*.log
+ehthumbs.db
+*.egg-info/
+.venv
+# Logs
+.idea/
+lib/
+Thumbs.db
+downloads/
+develop-eggs/
+eggs/
+*.swp
+.installed.cfg
+.Trashes
+*.swo
+# Testing
+
+
+
+
+
+# Auto-generated ignores
+coverage.xml
+
+# Comprehensive Python Ignores
+# Packaging and Distribution
+# Logs and Databases
+*.pyo
+*.sqlite3
+# Environments and Secrets
+*.key
+*.pyc
+# Compiled and Cached Files
+*.env
+*.pyd
