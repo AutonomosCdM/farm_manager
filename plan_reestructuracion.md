@@ -4,7 +4,7 @@ Este documento detalla el plan paso a paso para reestructurar el proyecto "gantt
 
 ## Fase 1: Preparación y Configuración Inicial
 
-### Tarea 1.1: Crear la nueva estructura de directorios
+### (X) Tarea 1.1: Crear la nueva estructura de directorios
 
 - **Descripción**: Establecer la estructura base de carpetas para el nuevo proyecto.
 - **Pasos**:
